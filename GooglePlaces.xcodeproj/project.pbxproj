@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A82E5AF204AECA200B97E12 /* GMSAutocompleteBoundsMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A82E5AE204AECA200B97E12 /* GMSAutocompleteBoundsMode.h */; };
+		9A82E5B1204AEE4300B97E12 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9A82E5B0204AEE4300B97E12 /* README.md */; };
 		B9234B4F1D9E2DCC001EE0B5 /* GooglePlaces.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B9234B4E1D9E2DCC001EE0B5 /* GooglePlaces.bundle */; };
 		B9EE04321D9D8D2E003E7610 /* GooglePlaces.h in Headers */ = {isa = PBXBuildFile; fileRef = B9EE04301D9D8D2E003E7610 /* GooglePlaces.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9EE04391D9D8DE2003E7610 /* GooglePlaces in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE04381D9D8DE2003E7610 /* GooglePlaces */; };
@@ -36,6 +38,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9A82E5AE204AECA200B97E12 /* GMSAutocompleteBoundsMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMSAutocompleteBoundsMode.h; sourceTree = "<group>"; };
+		9A82E5B0204AEE4300B97E12 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		B9234B4E1D9E2DCC001EE0B5 /* GooglePlaces.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GooglePlaces.bundle; sourceTree = "<group>"; };
 		B9EE042D1D9D8D2E003E7610 /* GooglePlaces.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GooglePlaces.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9EE04301D9D8D2E003E7610 /* GooglePlaces.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GooglePlaces.h; sourceTree = "<group>"; };
@@ -87,6 +91,7 @@
 		B9EE04231D9D8D2D003E7610 = {
 			isa = PBXGroup;
 			children = (
+				9A82E5B0204AEE4300B97E12 /* README.md */,
 				B9EE042F1D9D8D2E003E7610 /* GooglePlaces */,
 				B9EE042E1D9D8D2E003E7610 /* Products */,
 				B9EE045C1D9D8E20003E7610 /* Frameworks */,
@@ -104,6 +109,7 @@
 		B9EE042F1D9D8D2E003E7610 /* GooglePlaces */ = {
 			isa = PBXGroup;
 			children = (
+				9A82E5AE204AECA200B97E12 /* GMSAutocompleteBoundsMode.h */,
 				B9234B4E1D9E2DCC001EE0B5 /* GooglePlaces.bundle */,
 				B9EE04381D9D8DE2003E7610 /* GooglePlaces */,
 				B9EE043A1D9D8DF8003E7610 /* GMSAddressComponent.h */,
@@ -160,6 +166,7 @@
 				B9EE044D1D9D8DF8003E7610 /* GMSAutocompleteFilter.h in Headers */,
 				B9EE04541D9D8DF8003E7610 /* GMSPlaceLikelihood.h in Headers */,
 				B9EE044C1D9D8DF8003E7610 /* GMSAutocompleteFetcher.h in Headers */,
+				9A82E5AF204AECA200B97E12 /* GMSAutocompleteBoundsMode.h in Headers */,
 				B9EE04321D9D8D2E003E7610 /* GooglePlaces.h in Headers */,
 				B9EE04511D9D8DF8003E7610 /* GMSAutocompleteTableDataSource.h in Headers */,
 				B9EE044E1D9D8DF8003E7610 /* GMSAutocompleteMatchFragment.h in Headers */,
@@ -269,6 +276,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A82E5B1204AEE4300B97E12 /* README.md in Resources */,
 				B9234B4F1D9E2DCC001EE0B5 /* GooglePlaces.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
