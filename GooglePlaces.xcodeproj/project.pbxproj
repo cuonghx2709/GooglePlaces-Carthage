@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9A82E5AF204AECA200B97E12 /* GMSAutocompleteBoundsMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A82E5AE204AECA200B97E12 /* GMSAutocompleteBoundsMode.h */; };
-		9A82E5B1204AEE4300B97E12 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 9A82E5B0204AEE4300B97E12 /* README.md */; };
+		9A82E5AF204AECA200B97E12 /* GMSAutocompleteBoundsMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A82E5AE204AECA200B97E12 /* GMSAutocompleteBoundsMode.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9234B4F1D9E2DCC001EE0B5 /* GooglePlaces.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B9234B4E1D9E2DCC001EE0B5 /* GooglePlaces.bundle */; };
 		B9EE04321D9D8D2E003E7610 /* GooglePlaces.h in Headers */ = {isa = PBXBuildFile; fileRef = B9EE04301D9D8D2E003E7610 /* GooglePlaces.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B9EE04391D9D8DE2003E7610 /* GooglePlaces in Frameworks */ = {isa = PBXBuildFile; fileRef = B9EE04381D9D8DE2003E7610 /* GooglePlaces */; };
@@ -166,13 +165,13 @@
 				B9EE044D1D9D8DF8003E7610 /* GMSAutocompleteFilter.h in Headers */,
 				B9EE04541D9D8DF8003E7610 /* GMSPlaceLikelihood.h in Headers */,
 				B9EE044C1D9D8DF8003E7610 /* GMSAutocompleteFetcher.h in Headers */,
-				9A82E5AF204AECA200B97E12 /* GMSAutocompleteBoundsMode.h in Headers */,
 				B9EE04321D9D8D2E003E7610 /* GooglePlaces.h in Headers */,
 				B9EE04511D9D8DF8003E7610 /* GMSAutocompleteTableDataSource.h in Headers */,
 				B9EE044E1D9D8DF8003E7610 /* GMSAutocompleteMatchFragment.h in Headers */,
 				B9EE044B1D9D8DF8003E7610 /* GMSAddressComponent.h in Headers */,
 				B9EE04521D9D8DF8003E7610 /* GMSAutocompleteViewController.h in Headers */,
 				B9EE044F1D9D8DF8003E7610 /* GMSAutocompletePrediction.h in Headers */,
+				9A82E5AF204AECA200B97E12 /* GMSAutocompleteBoundsMode.h in Headers */,
 				B9EE04581D9D8DF8003E7610 /* GMSPlacesClient.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -276,7 +275,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A82E5B1204AEE4300B97E12 /* README.md in Resources */,
 				B9234B4F1D9E2DCC001EE0B5 /* GooglePlaces.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
